@@ -1,0 +1,237 @@
+
+ /*Font Awesome Free Icon*/
+ @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+ /*Google fonts*/
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Rubik:500,700,900&display=swap');
+
+ /*
+ =============
+ General style
+ ==============
+ */
+body{
+ margin: 0;
+ line-height: 1.5;
+ font-size: 14px;
+ font-family: "Montserrat",sans-serif;
+ font-weight: 400;
+}
+ *{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+ }
+ ::before,::after{
+  box-sizing: border-box;
+
+ }
+ .section{
+  background-color: #f2f2fc;
+  min-height: 100vh;
+  display: block;
+ }
+ .container{
+  margin: auto;
+  padding: 0 30px;
+  max-width: 1100px;
+  width: 100%;
+ }
+ .dark-shadow{
+  box-shadow: 0 0 20px rgba(48,46,77,0.15);
+  -webkit-box-shadow: 0 0 rgba(48,46,77,0.15);
+ }
+ .main-content{
+  padding-left: 270px;
+ }
+ /*
+========
+Aside
+========
+*/
+.aside{
+ width: 270px;
+ background-color: #fdf9ff;
+ position: fixed;
+ top: 0;
+ left:0;
+ height: 100%;
+ z-index: 10;
+ border-right: 1px solid #e8dfec;
+ padding: 30px;
+
+}
+.aside .logo{
+ padding: 20px 0;
+ position: relative;
+ top: 0;
+ left: 0;
+
+}
+.aside .logo a{
+ font-size: 28px;
+ text-transform: uppercase;
+ font-family: 'Rubik','sans-serif';
+ display: inline-block;
+font-weight: 700;
+ color: #302e4d;
+ line-height: 50px;
+
+}
+ .aside .logo::before{
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 15px;
+  left: -10px;
+
+ }
+.aside .logo::after{
+ content: '';
+ position: absolute;
+ width: 30px;
+ height: 30px;
+ bottom: 20px;
+ right: 0;
+}
+
+
+.aside .nav{
+ margin: 80px 0;
+ list-style: none;
+ padding: 0;
+
+}
+.aside .nav-toggler{
+ position: fixed;
+ cursor: pointer;
+ width: 45px;
+ height: 40px;
+ background-color: #fdf9ff;
+ border: 1px solid #d4d5e3;
+ border-radius: 5px;
+ left: 300px;
+ top: 60px;
+ display: flex;
+ align-items: center;
+ justify-content:center ;
+ z-index: 11;
+}
+.aside .nav-toggler span{
+ width: 20px;
+ height: 2px;
+ display: block;
+
+}
+ .aside .nav-toggler span:before{
+  content: '';
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+ }
+ .aside .nav-toggler span::after{
+  content: '';
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  top: 24px;
+  left: 12px;
+ }
+
+.aside .nav li{
+ display: block;
+}
+ .aside .nav li a{
+  line-height: 45px;
+  font-weight: 700;
+  color: #302e4d;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #e8dfec;
+  transition: color,margin-left 0.3s ease-in-out;
+
+ }
+ .aside .nav li a:not(.active):hover{
+  padding-left: 5px;
+  color: #ec1839;
+ }
+ .aside .nav li a .fa{
+  margin-right: 5px;
+ }
+ .aside .copy-right{
+  color: #7d7d7d;
+  font-size: 13px;
+
+}
+ /*
+========
+Home
+========
+*/
+ .home{
+min-height: 100vh;
+ display: flex;
+  display: -ms-flex;
+ }
+
+ .home .intro{
+  text-align: center;
+ }
+ .home .intro img{
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50%;
+  display: inline-block;
+  border:8px solid #ffffff;
+ }
+ .home .intro  h1{
+   font-size: 30px;
+   color: #302e4d;
+  font-family: 'Rubik',sans-serif;
+  font-weight:700 ;
+   margin: 20px 0 10px ;
+ }
+ .home .intro p{
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 22px;
+  color: #504e70;
+ }
+
+ .home .intro .social-links{
+    margin-top:25px;
+  list-style: none;
+
+ }
+ .home .intro .social-links ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 4px;
+
+ }
+ .home .intro .social-links ul li a{
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  color: #fff;
+  margin: 0 4px;
+  border-radius: 50%;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+
+ }
+ .home .intro .social-links ul li a:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+ }

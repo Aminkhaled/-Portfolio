@@ -10,10 +10,12 @@
 .aside .nav li a.active,
 .about .about-content .about-text h3 span{
     color: #ec1839;
+
     padding-left: 6px;
 }
 
 .buttons .btn,
+.main-content .education .timeline .timeline::before,
 .about .skills .skill-item .progress .progress-in,
 .aside .nav-toggler span,
 .aside .nav-toggler span::before,

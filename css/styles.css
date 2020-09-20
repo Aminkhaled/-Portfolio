@@ -406,3 +406,169 @@ flex: 0 0 100%;
  .about .buttons .btn{
   margin-right: 15px;
  }
+ /*
+ education
+ */
+ .main-content .education{
+  flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 20px;
+ }
+ .main-content .education .timeline-box{
+  flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  max-width: 100%;
+ }
+ .main-content .education .timeline{
+   background-color: #fdf9ff;
+   border-radius: 10px;
+  padding: 30px 15px;
+ }
+ .main-content .education .timeline .timeline-item{
+  position: relative;
+  padding-left: 20px;
+  left: 0;
+  top: 0;
+  padding-bottom: 30px;
+ }
+ .main-content .education .timeline .timeline-item:last-child{
+  padding-bottom: 0;
+ }
+ .main-content .education .timeline .timeline-item::before{
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 117%;
+  left: 0;
+  top: 14px;
+  background: #ec1839;
+ }
+ .main-content .education .timeline .timeline-item:last-child::before{
+height: 90%; }
+ .main-content .education .timeline .circle-dot{
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ec1839;
+ }
+ .main-content .education  .text-title h3{
+  font-size: 25px;
+  text-transform: capitalize;
+  font-family: "rublik",sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #302e4d;
+ }
+ .main-content .education .timeline .circle-dot{}
+ .main-content .education .timeline .timeline-date{
+  font-weight: 400;
+  font-size: 13px;
+  color: #504e70;
+  margin-bottom: 15px;
+ }
+ .main-content .education .timeline .timeline-date i{
+  margin-right: 10px;
+ }
+ .main-content .education .timeline .timeline-title{
+  font-weight: 700;
+  color: #302e4d;
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-bottom: 10px;
+ }
+ .main-content .education .timeline .timeline-text{
+  font-size: 16px;
+  line-height: 25px;
+  color: #504e70;
+  margin: 0;
+  padding-bottom: 30px ;
+ }
+
+
+ /*
+ experience
+ */
+ .main-content .experience{
+  flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 20px;
+ }
+ .main-content .experience .timeline-box{
+  flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  max-width: 100%;
+ }
+ .main-content .experience .timeline{
+  background-color: #fdf9ff;
+  border-radius: 10px;
+  padding: 30px 15px;
+ }
+ .main-content .experience .timeline .timeline-item{
+  position: relative;
+  padding-left: 20px;
+  left: 0;
+  top: 0;
+  padding-bottom: 30px;
+ }
+ .main-content .experience .timeline .timeline-item:last-child{
+  padding-bottom: 0;
+ }
+ .main-content .experience .timeline .timeline-item::before{
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 117%;
+  left: 0;
+  top: 14px;
+  background: #ec1839;
+ }
+ .main-content .experience .timeline .timeline-item:last-child::before{
+  height: 90%; }
+ .main-content .experience .timeline .circle-dot{
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ec1839;
+ }
+ .main-content .experience  .text-title h3{
+  font-size: 25px;
+  text-transform: capitalize;
+  font-family: "rublik",sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #302e4d;
+ }
+ .main-content .experience .timeline .circle-dot{}
+ .main-content .experience .timeline .timeline-date{
+  font-weight: 400;
+  font-size: 13px;
+  color: #504e70;
+  margin-bottom: 15px;
+ }
+ .main-content .experience .timeline .timeline-date i{
+  margin-right: 10px;
+ }
+ .main-content .experience .timeline .timeline-title{
+  font-weight: 700;
+  color: #302e4d;
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-bottom: 10px;
+ }
+ .main-content .experience .timeline .timeline-text{
+  font-size: 16px;
+  line-height: 25px;
+  color: #504e70;
+  margin: 0;
+  padding-bottom: 30px ;
+ }

@@ -13,7 +13,7 @@
 
     padding-left: 6px;
 }
- .services .service-item .service-item-inner .icon .fa{
+.portfolio-item .portfolio-item-inner .portfolio-info .icon .fa,services .service-item .service-item-inner .icon .fa,.portfolio .portfolio-filter button:hover{
     color: #ec1839;
 }
 

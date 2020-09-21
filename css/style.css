@@ -637,3 +637,120 @@ height: 90%; }
   color: #504e70;
   line-height: 25px;
  }
+
+ /*
+ portfolio
+ */
+ .portfolio{
+  overflow: hidden;
+ }
+ .portfolio .row-item{
+  margin: 0;
+
+ }
+ .portfolio .portfolio-filter{
+  flex:0 0 100%;
+  -ms-flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+ }
+ .portfolio .portfolio-filter button.active{
+  border-color: #ec1839;
+  color: #ec1839;
+  padding-bottom: 5px;
+ }
+ .portfolio .portfolio-filter button{
+  background-color: transparent;
+  border: none;
+  margin: 0 10px;
+  font-size: 16px;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+  text-transform: capitalize;
+  color: #302e4d;
+  font-weight: 700;
+  transition: color 0.5s ease-in;
+  cursor: pointer;
+ }
+
+ .portfolio-item {
+  max-width: 33%;
+  flex: 0 0 33%;
+  margin-bottom: 30px;
+
+ }
+ .portfolio-item .portfolio-item-inner .portfolio-info{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: 1;
+  padding: 30px;
+  display: none;
+  transition: display 2s ease-in-out;
+ }
+ .portfolio-item .portfolio-item-inner:hover .portfolio-info{
+  display: block;
+
+ }
+ .portfolio-item .portfolio-item-inner .portfolio-info h4{
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 0;
+  transform: translateX(-20px);
+  -webkit-transform: translateX(-20px);
+  transition: all 1s ease-out;
+ }
+ .portfolio-item .portfolio-item-inner .portfolio-info:hover h4{
+  opacity: 1;
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+
+ }
+ .portfolio-item .portfolio-item-inner .portfolio-info .icon{
+  height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 50% ;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  opacity: 0;
+  transform: translateX(-20px);
+  -webkit-transform: translateX(-20px);
+  transition: all 1s ease-out;
+ }
+ .portfolio-item .portfolio-item-inner:hover .portfolio-info:hover .icon{
+  opacity: 1;
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+
+ }
+ .portfolio-item .portfolio-item-inner .portfolio-info .icon .fa{
+  line-height: 40px;
+
+ }
+ .portfolio .portfolio-item .portfolio-item-inner{
+  margin-top: 30px;
+  position: relative;
+
+  top: 0;
+  left: 0;
+  cursor: pointer;
+ }
+ .portfolio .portfolio-item .portfolio-item-inner {
+  border-radius: 10px;
+  border: 6px solid #fdf9ff;
+ }
+ .portfolio .portfolio-item .portfolio-item-inner .portfolio-img img{
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+ }

@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/css/skins/pinks.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/skins/pinks.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,9 @@
       <workItem from="1600600794096" duration="600000" />
       <workItem from="1600606313745" duration="11533000" />
       <workItem from="1600625402686" duration="7091000" />
-      <workItem from="1600677042051" duration="13221000" />
+      <workItem from="1600677042051" duration="15946000" />
+      <workItem from="1600716845533" duration="8632000" />
+      <workItem from="1600726148700" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="we finished skills and birthday">
       <created>1600620819470</created>
@@ -84,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600685079981</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finish half of portfolio">
+      <created>1600693938302</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600693938302</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,17 +104,18 @@
     <MESSAGE value="we finished skills and birthday" />
     <MESSAGE value="we finished services" />
     <MESSAGE value="fixed some bugs with htmls tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed some bugs with htmls tags" />
+    <MESSAGE value="finish half of portfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish half of portfolio" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600545667033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600545667033" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600685077393">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600693936865">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600685077393" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600693936865" />
     <state x="352" y="142" key="EditFileWatcherDialog" timestamp="1600540969975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -117,9 +128,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1600628463282" />
-    <state x="346" y="49" key="search.everywhere.popup" timestamp="1600614940526">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600722036330">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600614940526" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600722036330" />
   </component>
 </project>

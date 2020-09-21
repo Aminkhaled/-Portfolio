@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b37102b-c710-4672-b920-505449edd606" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/skins/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/skins/pinks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +57,7 @@
       <workItem from="1600600794096" duration="600000" />
       <workItem from="1600606313745" duration="11533000" />
       <workItem from="1600625402686" duration="7091000" />
-      <workItem from="1600677042051" duration="5793000" />
+      <workItem from="1600677042051" duration="6652000" />
     </task>
     <task id="LOCAL-00001" summary="we finished skills and birthday">
       <created>1600620819470</created>
@@ -69,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600620819470</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="we finished services">
+      <created>1600683992749</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600683992749</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,17 +81,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="we finished skills and birthday" />
-    <option name="LAST_COMMIT_MESSAGE" value="we finished skills and birthday" />
+    <MESSAGE value="we finished services" />
+    <option name="LAST_COMMIT_MESSAGE" value="we finished services" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600545667033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600545667033" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600620817310">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600683989084">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600620817310" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600683989084" />
     <state x="352" y="142" key="EditFileWatcherDialog" timestamp="1600540969975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

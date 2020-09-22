@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b37102b-c710-4672-b920-505449edd606" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/skins/pinks.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/skins/pinks.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/skins/pinks.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/skins/pink.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
@@ -64,7 +64,9 @@
       <workItem from="1600625402686" duration="7091000" />
       <workItem from="1600677042051" duration="15946000" />
       <workItem from="1600716845533" duration="8632000" />
-      <workItem from="1600726148700" duration="714000" />
+      <workItem from="1600726148700" duration="1139000" />
+      <workItem from="1600762529158" duration="8575000" />
+      <workItem from="1600784384390" duration="5694000" />
     </task>
     <task id="LOCAL-00001" summary="we finished skills and birthday">
       <created>1600620819470</created>
@@ -94,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600693938302</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finish  portfolio and lightbox 90%">
+      <created>1600727103532</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600727103532</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,13 +114,14 @@
     <MESSAGE value="we finished services" />
     <MESSAGE value="fixed some bugs with htmls tags" />
     <MESSAGE value="finish half of portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish half of portfolio" />
+    <MESSAGE value="finish  portfolio and lightbox 90%" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish  portfolio and lightbox 90%" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600545667033">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600784766828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600545667033" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600784766828" />
     <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600693936865">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

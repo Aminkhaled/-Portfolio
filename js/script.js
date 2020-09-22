@@ -42,6 +42,24 @@
 
      }
 
+     function nextItem(){
+         if(itemIndex == (portfoloioItemLimit - 1)){
+             itemIndex = 0;
+         }else {
+             itemIndex++;
+
+         }
+         changeItem();
+     }
+     function prevItem() {
+         if(itemIndex == 0){
+             itemIndex = portfoloioItemLimit - 1;
+         }else {
+             itemIndex--;
+
+         }
+         changeItem();
+     }
      function changeItem(){
          let imgSrc = portfolioItem[itemIndex].querySelector('.portfolio-img img').getAttribute('src');
          lightImg.src = imgSrc;

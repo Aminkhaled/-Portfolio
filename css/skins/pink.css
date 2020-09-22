@@ -16,11 +16,14 @@
 }
 .portfolio-item .portfolio-item-inner .portfolio-info .icon .fa,
 .lightbox .lightbox-controls .prev-item .fa,
-.lightbox .lightbox-controls .next-item .fa,services .service-item .service-item-inner .icon .fa,.portfolio .portfolio-filter button:hover{
+.blog-item .blog-item-inner .blog-caption .blog-tags a,
+.lightbox .lightbox-controls .next-item .fa,.services .service-item .service-item-inner .icon .fa,.portfolio .portfolio-filter button:hover{
     color: #ec1839;
 }
-
-.buttons .btn,
+.btn{
+    border:1px solid #ec1839;
+}
+.btn,
 .services .service-item .service-item-inner .icon:hover .fa,
 .main-content .education .timeline .timeline::before,
 .about .skills .skill-item .progress .progress-in,
@@ -29,7 +32,7 @@
 .aside .nav-toggler span::after,
 .home .intro .social-links ul li a,
 .section-title h2::after,
-.section-title h2::before
+.section-title h2::before, .blog-item .blog-item-inner .blog-img .blog-data
 {
    background-color: #ec1839;
 }

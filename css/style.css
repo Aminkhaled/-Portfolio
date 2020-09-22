@@ -135,7 +135,7 @@ Aside
 
 }
 .aside .logo a{
- font-size: 28px;
+ font-size: 25px;
  text-transform: uppercase;
  font-family: 'Rubik','sans-serif';
  display: inline-block;
@@ -886,4 +886,139 @@ height: 90%; }
  .lightbox .lightbox-controls .prev-item .fa,
  .lightbox .lightbox-controls .next-item .fa{
   line-height: 40px;
+ }
+
+ /*
+  blog
+ */
+ .blog .blog-item{
+  flex: 0 0 33.33%;
+  -ms-flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-top: 30px;
+ }
+ .blog-item .blog-item-inner{
+  width: 100%;
+  box-shadow: 0 0 4px rgba(0,0,0,0.3);
+  text-align: center;
+  border-radius: 10px;
+  border:1px solid #d4d5e3;
+ }
+ .blog-item .blog-item-inner .blog-img{
+  position: relative;
+ }
+ .blog-item .blog-item-inner .blog-img .blog-data{
+  content: '';
+  position: absolute;
+  padding: 5px 10px;
+  color: #ffffff;
+
+  bottom: 20px;
+  left: 20px;
+  border-radius: 5px;
+ }
+ .blog-item .blog-item-inner .blog-img img{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+ }
+ .blog-item .blog-item-inner .blog-caption{
+  padding: 15px 30px;
+  background-color: #fdf9ff;
+ }
+ .blog-item .blog-item-inner .blog-caption .blog-title{
+  font-size: 18px;
+  font-weight: 700;
+  color: #302e4d;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+
+ }
+ .blog-item .blog-item-inner .blog-caption .blog-description{
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #504e70;
+  line-height: 25px;
+
+ }
+ .blog-item .blog-item-inner .blog-caption .blog-tags{
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #504e70;
+  line-height: 25px;
+  text-transform: capitalize;
+ }
+ .blog-item .blog-item-inner .blog-caption .blog-tags a{
+  text-decoration: none;
+  font-size: 16px;
+ }
+
+ /*
+ contact
+ */
+ .contact{
+  padding-bottom: 30px;
+ }
+ .contact .contact-info-item{
+  flex: 0 0 33.33%;
+  -ms-flex: 0 0 33.33%;
+  max-width: 33.33%;
+  text-align: center;
+  margin-top: 30px;
+ }
+ .contact .contact-info-item .icon{
+  display: inline-block;
+ }
+ .contact .contact-info-item .icon .fa{
+  font-size: 40px;
+  color: #ec1839;
+ }
+ .contact .contact-info-item h4{
+  font-size: 18px;
+  font-weight: 700;
+  color: #302e4d;
+  text-transform: capitalize;
+  margin: 15px 0 5px;
+ }
+ .contact .contact-info-item p{
+  font-size: 16px;
+  line-height: 25px;
+  color: #504e70;
+  margin: 0;
+  font-weight: 400;
+ }
+ .contact .contact-form{
+  flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  max-width: 100%;
+  margin-top: 30px;
+ }
+ .contact .contact-form .col-12{
+  flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  max-width: 100%;
+ }
+ .contact .contact-form .col-6{
+  flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  max-width: 50%;
+ }
+ .contact-form  .form-group input,textarea{
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: 1px solid #d4d5e3;
+
+ }
+ .contact-form  .form-group textarea{
+  margin-bottom: 30px;
+  height: 140px;
+ }
+ .contact-form .col-6 .form-group .form-control{
+  width: 100%;
+ }
+ .contact-form .col-12 .form-group .form-control{
+  width: 100%;
  }

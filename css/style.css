@@ -1022,3 +1022,107 @@ height: 90%; }
  .contact-form .col-12 .form-group .form-control{
   width: 100%;
  }
+
+ /*
+ Media Queries
+ */
+ @media (max-width: 1199px){
+  .aside{
+   left: -270px;
+  }
+  .main-content{
+   padding-left: 0;
+
+  }
+  .about .personal-info .info-item p span{
+   display: block;
+   margin-left: 0;
+  }
+ }
+ @media (max-width: 999px){
+  .about .skills .skill-item .progress .skill-precent {
+   color: #302e4d;
+   position: absolute;
+   top: -26px;
+   left: 276px;
+  }
+ }
+ @media (max-width: 767px){
+  .about .personal-info {
+   flex: 0 0 100%;
+   -ms-flex: 0 0 100%;
+   max-width: 100%;
+   margin-top: 40px;
+  }
+  .about .skills {
+   flex: 0 0 100%;
+   -ms-flex: 0 0 100%;
+   max-width: 100%;
+   margin-top: 40px;
+  }
+  .about .skills .skill-item .progress .skill-precent {
+   color: #302e4d;
+   position: absolute;
+   top: -26px;
+   left: 370px;
+  }
+  .blog .blog-item {
+   flex: 0 0 100%;
+   -ms-flex: 0 0 100%;
+   max-width: 100%;
+   margin-top: 30px;
+   margin-bottom: 30px;
+  }
+  .services .service-item {
+   flex: 0 0 50%;
+   -ms-flex: 0 0 50%;
+   max-width: 50%;
+  }
+  .portfolio-item {
+   max-width: 50%;
+   flex: 0 0 50%;
+   margin-bottom: 30px;
+  }
+ }
+
+ @media (max-width: 480px) {
+  .contact .contact-info-item {
+   flex: 0 0 100%;
+   -ms-flex: 0 0 100%;
+   max-width: 100%;
+   text-align: center;
+   margin-top: 30px;
+  }
+  .main-content .education {
+   flex: 0 0 100%;
+   -ms-flex: 0 0 50%;
+   max-width: 100%;
+   margin-top: 20px;
+  }
+  .about .buttons .btn {
+   margin-right: 15px;
+  }
+ }
+
+ @media (max-width: 360px) {
+  .about .skills .skill-item .progress .skill-precent {
+   color: #302e4d;
+   position: absolute;
+   top: -26px;
+   left: 276px;
+  }
+  .about .personal-info .info-item p span {
+   font-weight: 400;
+   font-size: 12px;
+   color: #504e70;
+  }
+  .main-content .education {
+   flex: 0 0 100%;
+   -ms-flex: 0 0 50%;
+   max-width: 100%;
+   margin-top: 20px;
+  }
+  .about .buttons .btn {
+   margin-right: 15px;
+  }
+ }

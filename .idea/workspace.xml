@@ -65,7 +65,8 @@
       <workItem from="1600762529158" duration="8575000" />
       <workItem from="1600784384390" duration="6032000" />
       <workItem from="1600803525059" duration="1263000" />
-      <workItem from="1600851938570" duration="4583000" />
+      <workItem from="1600851938570" duration="5849000" />
+      <workItem from="1600884487129" duration="2073000" />
     </task>
     <task id="LOCAL-00001" summary="we finished skills and birthday">
       <created>1600620819470</created>
@@ -116,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600868027708</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="redesign media query to be fully responsive">
+      <created>1600873333116</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600873333116</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,17 +138,18 @@
     <MESSAGE value="finish  portfolio and lightbox 90%" />
     <MESSAGE value="finish contact form and all pages" />
     <MESSAGE value="show all pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="show all pages" />
+    <MESSAGE value="redesign media query to be fully responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="redesign media query to be fully responsive" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600784766828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600784766828" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600868024362">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600873331205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600868024362" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600873331205" />
     <state x="352" y="142" key="EditFileWatcherDialog" timestamp="1600540969975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -149,10 +158,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600540971603" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1600868033774">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1600873394036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600868033769" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600873394036" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1600628463282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

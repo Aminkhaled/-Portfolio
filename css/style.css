@@ -1054,6 +1054,12 @@ height: 90%; }
    max-width: 100%;
    margin-top: 40px;
   }
+  .main-content .education,.main-content .experience {
+   flex: 0 0 100%;
+   -ms-flex: 0 0 50%;
+   max-width: 100%;
+   margin-top: 20px;
+  }
   .about .skills {
    flex: 0 0 100%;
    -ms-flex: 0 0 100%;
@@ -1074,17 +1080,25 @@ height: 90%; }
    margin-bottom: 30px;
   }
   .services .service-item {
-   flex: 0 0 50%;
-   -ms-flex: 0 0 50%;
-   max-width: 50%;
+   flex: 0 0 100%;
+   -ms-flex: 0 0 100%;
+   max-width: 100%;
   }
   .portfolio-item {
-   max-width: 50%;
-   flex: 0 0 50%;
+   max-width: 100%;
+   flex: 0 0 100%;
    margin-bottom: 30px;
   }
  }
-
+ @media(max-width: 575px){
+  .contact .contact-info-item {
+   flex: 0 0 100%;
+   -ms-flex: 0 0 100%;
+   max-width: 100%;
+   text-align: center;
+   margin-top: 30px;
+  }
+ }
  @media (max-width: 480px) {
   .contact .contact-info-item {
    flex: 0 0 100%;
@@ -1093,14 +1107,20 @@ height: 90%; }
    text-align: center;
    margin-top: 30px;
   }
-  .main-content .education {
+  .main-content .education,.main-content .experience {
    flex: 0 0 100%;
    -ms-flex: 0 0 50%;
    max-width: 100%;
    margin-top: 20px;
   }
   .about .buttons .btn {
-   margin-right: 15px;
+   margin-top: 15px;
+  }
+  .about .skills .skill-item .progress .skill-precent {
+   color: #302e4d;
+   position: absolute;
+   top: -26px;
+   left: 276px;
   }
  }
 
@@ -1116,13 +1136,13 @@ height: 90%; }
    font-size: 12px;
    color: #504e70;
   }
-  .main-content .education {
+  .main-content .education,.main-content .experience {
    flex: 0 0 100%;
    -ms-flex: 0 0 50%;
    max-width: 100%;
    margin-top: 20px;
   }
   .about .buttons .btn {
-   margin-right: 15px;
+   margin-top: 15px;
   }
  }

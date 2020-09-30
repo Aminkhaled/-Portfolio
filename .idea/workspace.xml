@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b37102b-c710-4672-b920-505449edd606" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -67,6 +66,8 @@
       <workItem from="1600803525059" duration="1263000" />
       <workItem from="1600851938570" duration="5849000" />
       <workItem from="1600884487129" duration="2073000" />
+      <workItem from="1600973060069" duration="654000" />
+      <workItem from="1601206003247" duration="2837000" />
     </task>
     <task id="LOCAL-00001" summary="we finished skills and birthday">
       <created>1600620819470</created>
@@ -124,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600873333116</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="redesign media query to be fully responsive2">
+      <created>1600973095165</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600973095165</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,29 +147,30 @@
     <MESSAGE value="finish contact form and all pages" />
     <MESSAGE value="show all pages" />
     <MESSAGE value="redesign media query to be fully responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="redesign media query to be fully responsive" />
+    <MESSAGE value="redesign media query to be fully responsive2" />
+    <option name="LAST_COMMIT_MESSAGE" value="redesign media query to be fully responsive2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600784766828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600784766828" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600873331205">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600973091277">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600873331205" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600973091277" />
     <state x="352" y="142" key="EditFileWatcherDialog" timestamp="1600540969975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="352" y="142" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1600540969975" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1600540971603">
+    <state x="184" y="9" key="SettingsEditor" timestamp="1601207721511">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600540971603" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1600873394036">
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601207721511" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1600973108953">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600873394036" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600973108953" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1600628463282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
